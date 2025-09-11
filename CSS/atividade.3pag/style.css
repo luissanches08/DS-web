@@ -29,8 +29,8 @@ p {
       }
       
       @keyframes mudarCor {
-        0% { background-color: rgb(214, 5, 5); }
-        50% { background-color: rgb(15, 179, 255); }
+        0% { background-color: rgb(68, 183, 101); }
+        50% { background-color: rgb(73, 197, 255); }
         100% { background-color: rgb(5, 186, 14); }
       }   
    
