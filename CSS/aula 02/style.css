@@ -1,0 +1,16 @@
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    }
+    img {
+        width: 300px;
+        height: auto; /* mantém a proporção */
+        }
+        th, td {
+            padding: 10px; /* espaço interno */
+            text-align: center; /* centralizar texto */
+            }
+
+p{
+    background-color: aqua;
+}
