@@ -1,0 +1,26 @@
+.div1{
+    width: 200px;
+    height: 250px;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+}
+
+.div2{
+    width: 200px;
+    height: 250px;
+    padding: 15px;
+    margin: 10px;
+    background-color: chartreuse;
+    display: inline-block;
+}
+
+.div3{
+    width: 200px;
+    height: 250px;
+    padding: 15px;
+    margin: 10px;
+    background-color: royalblue;
+    display: inline-block;
+}
