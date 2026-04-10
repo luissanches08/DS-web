@@ -1,0 +1,89 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #084b72;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+
+.input-letra {
+    margin-bottom: 20px;
+}
+
+.input-letra input {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+.input-letra button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    background: none;
+}
+
+
+.caixa-imagem {
+    width: 320px;
+    height: 350px;
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+
+img {
+    width: 280px;
+    position: absolute;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: all 0.4s ease;
+}
+
+img.mostrar {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.nome {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    min-height: 24px;
+}
+
+.bolinha {
+    width: 15px;
+    height: 15px;
+    background: #f9f9f9;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: #ffffff;
+}
